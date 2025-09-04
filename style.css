@@ -1,0 +1,589 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    height: 100dvh;
+    width: 100%;
+}
+
+.main {
+    height: 49%;
+    width: 100%;
+    background-color: rgb(10, 10, 60);
+    position: absolute;
+}
+
+.main h1 {
+    color: white;
+    position: absolute;
+    top: 106px;
+    font-size: 60px;
+    left: 254px;
+}
+
+.main h2 {
+    color: rgb(239, 239, 58);
+    position: absolute;
+    top: 166px;
+    font-size: 40px;
+    left: 254px;
+}
+
+.main button {
+    position: absolute;
+    top: 242px;
+    padding: 7px 8px;
+    font-size: 30px;
+    left: 254px;
+    background-color: rgb(239, 239, 58);
+    color: rgb(10, 10, 60);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main button:hover {
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 60);
+    border: 3px solid rgb(10, 10, 60);
+}
+
+.features {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.features h2 {
+    bottom: 227px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    position: relative;
+    font-size: 43px;
+    top: 12px;
+    color: rgb(10, 10, 60);
+}
+
+.features div {
+    position: relative;
+    gap: 0px;
+    display: flex;
+    margin: auto 12px;
+    top: 25px;
+    justify-content: center;
+}
+ .first:hover, .second:hover, .third:hover{
+        transition: all 1s ease-in-out 1s;
+    background-color: #34167a;
+    height: 440px;
+    width: 330px;
+ }
+.first{
+    height: 417px;
+    width: 313px;
+    border-radius: 7px;
+    background-color: rgb(10, 10, 60);
+    color: white;
+}
+.second{
+        height: 417px;
+    width: 313px;
+    border-radius: 7px;
+    background-color: rgb(10, 10, 60);
+    color: white;
+}
+.third{
+        height: 417px;
+    width: 313px;
+    border-radius: 7px;
+    background-color: rgb(10, 10, 60);
+    color: white;
+}
+
+
+.features img {
+    height: 133px;
+    width: 154px;
+        top: 12px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.features h4 {
+    font-size: 22px;
+    position: absolute;
+    top: 160px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+.features p {
+    color: rgb(239, 239, 58);
+    font-size: 19px;
+    position: relative;
+    width: 181px;
+    top: 34px;
+    margin-top: 27px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+} 
+
+.reviews {
+    height: 100%;
+    width: 100%;
+}
+
+.reviews h1 {
+    font-size: 43px;
+    left: 39px;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 74px;
+    display: flex;
+    top: 1471px;
+    color: rgb(10, 10, 60);
+}
+
+.reviews h4 {
+    font-size: 29px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: rgb(10, 10, 60);
+}
+
+.reviews h6 {
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    left: 558px;
+    color: rgb(239, 239, 58);
+    top: 65px;
+}
+
+.reviews p {
+    color: white;
+    font-size: 23px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 59%;
+    padding: 42px;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    margin: 23px auto;
+    height: 95px;
+    top: 19px;
+    /* padding: 12px; */
+    position: relative;
+    width: 899px;
+    justify-content: center;
+    background-color: rgb(10, 10, 60);
+
+}
+
+.reviews .para:hover {
+    height: 120px;
+    width: 920px;
+}
+.pricing {
+    height: 78%;
+    width: 62%;
+}
+
+.pricing {
+    height: 56%;
+    width: 100%;
+}
+.pricing div {
+    position: relative;
+    display: flex
+;
+    top: 49px;
+    margin: auto 4px;
+    justify-content: center;
+}
+.free {
+    width: 325px;
+    height: 332px;
+    border-radius: 7px;
+    background-color:  rgb(10, 10, 60);
+    color: white;
+}
+.pro {
+    width: 325px;
+    height: 332px;
+    border-radius: 7px;
+    background-color:  rgb(10, 10, 60);
+    color: white;
+}
+.team{
+    width: 325px;
+    height: 332px;
+    border-radius: 7px;
+    background-color:  rgb(10, 10, 60);
+    color: white;
+}
+.pricing div h2{
+        top: 17px;
+        font-size: 40px;
+    position: absolute;
+}
+.pricing div p{
+    font-size: 18px;
+    position: absolute;
+    top: 73px;
+    font-weight: bold;
+}
+.pricing div .free, .pricing div .pro, .pricing div .team {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 37px;
+    font-weight: bold;
+}
+.pricing h1 {
+    font-size: 43px;
+    top: 35px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: rgb(10, 10, 60);
+}
+
+.pricing h4 {
+display: flex;
+    top: 32px;
+    justify-content: center;
+    font-size: 22px;
+    position: relative;
+}
+.pricing button {
+    position: absolute;
+    height: 49px;
+    width: 211px;
+    top: 245px;
+    background-color: rgb(239, 239, 58);
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.pricing button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 60);
+
+}
+
+footer {
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(10, 10, 60);
+    color: white;
+    bottom: -2018px;
+}
+
+footer .p1 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 17px;
+    margin-top: 16px;
+}
+
+footer .p2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 38px;
+    font-weight: bold;
+}
+
+footer .images {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
+    gap: 18px;
+}
+
+footer img {
+    border-radius: 50%;
+
+}
+
+footer img:hover {
+    box-shadow: 0px 0px 5px 5px rgb(239, 239, 58);
+    width: 38px;
+    height: 38px;
+}
+@media screen and (max-width:1077px) and (min-width:750px) {
+    
+.features div {
+    gap: 46px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 25px;
+    margin: auto;
+    justify-content: center;
+}
+    .first:hover, .second:hover, .third:hover {
+    background-color: #34167a;
+        height: 195px;
+    width: 599px;
+}
+    .first {
+    height: 174px;
+    width: 571px;
+}
+    .second {
+    height: 174px;
+    width: 571px;
+}
+    .third{
+    height: 174px;
+    width: 571px;
+}
+.features h4 {
+    top: 44px;
+    left: 189px;
+}
+.features p {
+    top: 20px;
+    left: 189px;
+}
+.features img {
+    top: 21px;
+    left: 14px;
+}
+
+.para {
+    width: 728px;
+}
+.reviews .para:hover {
+    width: 768px;
+}
+
+.pricing div {
+    flex-direction: column;
+            margin: auto;
+            gap: 14px;
+}
+
+.free {
+    width: 484px;
+    height: 203px;
+}
+.pro {
+    width: 484px;
+    height: 203px;
+}
+.team {
+    width: 484px;
+    height: 203px;
+}
+.pricing div h2 {
+    top: 6px;
+    font-size: 35px;
+}
+.pricing div p {
+    top: 48px;
+}
+.pricing div .free, .pricing div .pro, .pricing div .team {
+    font-size: 29px;
+}
+.pricing button {
+    width: 181px;
+    top: 138px;
+}
+footer {
+    bottom: -2348px;
+}
+}
+@media screen and (max-width:750px) and (min-width:100px) {
+    .main {
+        width: 135vh;
+    }
+    .main h1 {
+        font-size: 40px;
+    left: 138px;
+}
+.main h2 {
+    top: 154px;
+    font-size: 36px;
+    left: 138px;
+}
+.main button {
+    top: 222px;
+    font-size: 29px;
+    left: 138px;
+}
+    .features {
+        width: 135vh;
+    }
+    .features div {
+        gap: 46px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 133px;
+        margin: auto;
+        justify-content: center;
+    }
+    .features h2 {
+        align-items: center;
+        top: 234px;
+    }
+    .first:hover, .second:hover, .third:hover {
+    height: 200px;
+    width: 599px;
+}
+    .first {
+    height: 174px;
+    width: 571px;
+}
+    .second {
+    height: 174px;
+    width: 571px;
+}
+    .third{
+    height: 174px;
+    width: 571px;
+}
+.features h4 {
+    top: 44px;
+    left: 189px;
+}
+.features p {
+    top: 20px;
+    left: 189px;
+}
+.features img {
+    top: 21px;
+    left: 14px;
+}
+    .reviews {
+        width: 135vh;
+    }
+    .reviews h1 {
+        position: relative;
+        width: 381px;
+        top: 347px;
+    }
+.reviews h4 {
+    font-size: 29px;
+    display: flex
+;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: rgb(10, 10, 60);
+}
+    .reviews h4 {
+        font-size: 29px;
+        display: flex
+;
+        margin: auto;
+        position: relative;
+        top: 344px;
+        justify-content: center;
+        align-items: center;
+        color: rgb(10, 10, 60);
+    }
+.para {
+    display: flex
+;
+    flex-direction: column;
+    margin: 23px auto;
+
+    top: 19px;
+    /* padding: 12px; */
+    position: relative;
+
+    justify-content: center;
+    background-color: rgb(10, 10, 60);
+
+    height: 129px;
+    top: 341px;
+    width: 464px;
+}
+.reviews p {
+    width: 81%;
+}
+.reviews h6 {
+    left: 315px;
+    top: 97px;
+    white-space: nowrap;
+            font-size: 23px;
+}
+.pricing {
+        width: 135vh;
+}
+.pricing h1 {
+    top: 381px;
+}
+.pricing h4 {
+    top: 387px;
+}
+.pricing div .free, .pricing div .pro, .pricing div .team {
+    top: 365px;
+            font-size: 32px;
+}
+.pricing div {
+    flex-direction: column;
+            margin: auto;
+            gap: 14px;
+}
+
+.free {
+    width: 484px;
+    height: 203px;
+}
+.pro {
+    width: 484px;
+    height: 203px;
+}
+.team {
+    width: 484px;
+    height: 203px;
+}
+.pricing div h2 {
+    top: 6px;
+    font-size: 35px;
+}
+.pricing div p {
+    top: 48px;
+            font-size: 26px;
+}
+
+.pricing button {
+    width: 181px;
+    top: 138px;
+}
+footer {
+       width: 135vh;
+        top: 3344px;
+}
+}
